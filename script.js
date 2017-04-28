@@ -22,7 +22,7 @@ $(function(){
 					alert('Too many files! Please select 5 at most!');
 					break;
 				case 'FileTooLarge':
-					alert(file.name+' is too large! Please upload files up to 2mb (configurable).');
+					alert(file.name+' is too large! Please upload files up to 2mb');
 					break;
 				default:
 					break;
